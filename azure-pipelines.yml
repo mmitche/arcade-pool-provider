@@ -88,5 +88,6 @@ jobs:
           -configuration $(_BuildConfig) 
           -prepareMachine
           $(_InternalBuildArgs)
+          -pack
           /p:Test=false
         displayName: Windows Build / Publish
